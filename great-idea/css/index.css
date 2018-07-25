@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+  max-width: 880px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.header-content {
+  display: flex;
+  height: 10vh;
+}
+
+.header-left {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: #c5c6c7;
+}
+
+.header-right {
+  width: 30vw;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+
+
+
+
+

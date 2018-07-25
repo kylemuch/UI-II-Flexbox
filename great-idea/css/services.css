@@ -152,3 +152,19 @@ body {
 footer {
   margin: 50px
 }
+
+@media only screen and (max-width: 879px) {
+    body {
+        margin: 0 25px;
+    }
+
+    .services-box {
+      width: 100%;
+    }
+
+    .services-box:nth-child(even) {
+      margin-left: 0%;
+    }
+
+
+}

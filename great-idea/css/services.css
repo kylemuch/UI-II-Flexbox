@@ -113,7 +113,7 @@ body {
   width: 47.5%;
   margin: 2.5% 0;
   border: 1px solid black;
-  padding: 5px 10px;
+  padding: 15px 10px;
   background: #dedede;
 }
 
@@ -129,14 +129,20 @@ body {
   display: flex;
   padding: 20px 0;
 }
+
+.services-facts-left {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.services-facts ul {
+  padding-top: 5%;
+}
+
 .services-facts ul li {
   list-style-type: disc;
   list-style-position: inside;
   margin: 10px 0;
-}
-
-.services-facts-left {
-  width: 50%;
 }
 
 .services-facts-right {
